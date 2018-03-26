@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
+.mySlides {display:none}
+.w3-tag, .fa {cursor:pointer}
+.w3-tag {height:15px;width:15px;padding:0;margin-top:6px}
+</style>
+<body>
+
+<!-- Links (sit on top) -->
+<div class="w3-top">
+  <div class="w3-row w3-large w3-light-grey">
+    <div class="w3-col s3">
+      <a href="#" class="w3-button w3-block  w3-small w3-hide-large w3-hide-medium">Home</a>
+      <a href="#" class="w3-button w3-block w3-large w3-hide-small">Home</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#plans" class="w3-button w3-block w3-small w3-hide-large w3-hide-medium">Planes y precios</a>
+       <a href="#plans" class="w3-button w3-block  w3-large w3-hide-small">Planes y precios</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#about" class="w3-button w3-block w3-small w3-hide-large w3-hide-medium">Nosotros</a>
+      <a href="#about" class="w3-button w3-block w3-large w3-hide-small">Nosotros</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#contact" class="w3-button w3-block w3-small w3-hide-large w3-hide-medium">Contactanos</a>
+      <a href="#contact" class="w3-button w3-block w3-large w3-hide-small">Contactanos</a>
+    </div>
+  </div>
+</div>
+
+<!-- Content -->
+<div class="w3-content" style="max-width:1100px;margin-top:80px;margin-bottom:80px">
+
+  <div class="w3-panel">
+    <h1><b>CREDIASESOR.COM</b></h1>
+  </div>
+
+  <!-- Slideshow -->
+  <div class="w3-container">
+    <div class="w3-display-container mySlides">
+      <img src="imagenes/casa_familia.jpg" style="width:100%">
+      <div class="w3-display-topleft w3-container w3-padding-32 w3-display-left w3-text-white" >
+        <span class="w3-jumbo w3-hide-small" style="text-shadow: 5px 5px 5px #000">Obtén asesoría virtual</span><br>
+        <span class="w3-xlarge w3-hide-large w3-hide-medium" style="text-shadow: 5px 5px 5px #000">Obtén asesoría virtual</span><br>
+        <span class="w3-large w3-hide-small" style="text-shadow: 5px 5px 5px #000">para conseguir la casa de tus sueños.</span>
+        <span class="w3-small w3-hide-large w3-hide-medium" style="text-shadow: 5px 5px 5px #000">para conseguir la casa de tus sueños.</span>
+      </div>
+    </div>
+    <div class="w3-display-container mySlides">
+      <img src="imagenes/asesor_inmobiliario.jpg" style="width:100%">
+      <div class="w3-display-middle w3-container w3-padding-32 w3-display-left w3-text-white">
+        <span class="w3-jumbo w3-hide-small" style="text-shadow: 5px 5px 5px #000">Eres asesor de un banco?</span><br>
+        <span class="w3-xlarge w3-hide-large w3-hide-medium" style="text-shadow: 5px 5px 5px #000">Eres asesor de un banco?</span><br>
+        <span class="w3-large w3-hide-small" style="text-shadow: 5px 5px 5px #000">Brinda ayuda a aquellos que desean adquirir vivienda.</span>
+        <span class="w3-small w3-hide-large w3-hide-medium" style="text-shadow: 5px 5px 5px #000">Brinda ayuda a aquellos que desean adquirir vivienda.</span>
+      </div>
+    </div>
+    <div class="w3-display-container mySlides">
+      <img src="imagenes/ahorro-casa-monedas.jpg" style="width:100%">
+      <div class="w3-display-topright w3-container w3-padding-32 w3-display-left w3-text-white" >
+        <span class="w3-jumbo w3-hide-small" style="text-shadow: 5px 5px 5px #000">Conoce las mejores tasas del mercado inmobiliario.</span><br>
+        <span class="w3-xlarge w3-hide-large w3-hide-medium" style="text-shadow: 5px 5px 5px #000">Conoce las mejores tasas del mercado inmobiliario.</span><br>
+        <span class="w3-large w3-hide-small" style="text-shadow: 5px 5px 5px #000">En un solo lugar consulta y compara las tasas ofrecidas en el mercado.</span>
+        <span class="w3-small w3-hide-large w3-hide-medium" style="text-shadow: 5px 5px 5px #000">En un solo lugar consulta y compara las tasas ofrecidas en el mercado.</span>
+      </div>
+    </div>
+
+    <!-- Slideshow next/previous buttons -->
+    <div class="w3-container w3-dark-grey w3-padding w3-xlarge">
+      <div class="w3-left" onclick="plusDivs(-1)"><i class="fa fa-arrow-circle-left w3-hover-text-teal"></i></div>
+      <div class="w3-right" onclick="plusDivs(1)"><i class="fa fa-arrow-circle-right w3-hover-text-teal"></i></div>
+    
+      <div class="w3-center">
+        <span class="w3-tag demodots w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
+        <span class="w3-tag demodots w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
+        <span class="w3-tag demodots w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Grid -->
+  <div class="w3-row w3-container">
+    <div class="w3-center w3-padding-64">
+      <span class="w3-xlarge w3-bottombar w3-border-dark-grey w3-padding-16">Que ofrecemos</span>
+    </div>
+    <div class="w3-col l3 m6 w3-light-grey w3-container w3-padding-16">
+      <h3>Asesoría virtual</h3>
+      <p>Contacta los mejores asesores del mercado inmobiliario de tu banco favorito.</p>
+      <p>&nbsp</p>
+      </p>
+    </div>
+
+    <div class="w3-col l3 m6 w3-grey w3-container w3-padding-16">
+      <h3>Califica y comenta</h3>
+      <p>Califica y comenta tu experiencia con el banco, asesor y trámites relacionados con tu proceso de adquisición de crédito hipotecario.&nbsp&nbsp&nbsp&nbsp</p>
+    </div>
+
+    <div class="w3-col l3 m6 w3-dark-grey w3-container w3-padding-16">
+      <h3>Consulta de Tasas</h3>
+      <p>Consulta y compara las tasas del mercado inmobiliario de las entidades financieras del país.</p>
+      <p>&nbsp</p>
+    </div>
+
+    <div class="w3-col l3 m6 w3-black w3-container w3-padding-16">
+      <h3>Inscribete</h3>
+      <p>Si eres asesor comercial inscríbete con nosotros y crea tu portafolio de clientes.</p>
+      <p>&nbsp</p>
+    </div>
+  </div>
+
+  <!-- Grid -->
+  <div class="w3-row-padding" id="plans">
+    <div class="w3-center w3-padding-64">
+      <h3>Planes y precios</h3>
+      <p>Si eres asesor comercial te ofrecemos los siguientes planes</p>
+    </div>
+
+    <div class="w3-third w3-margin-bottom">
+      <ul class="w3-ul w3-border w3-center w3-hover-shadow">
+        <li class="w3-black w3-xlarge w3-padding-32">Basic</li>
+        <li class="w3-padding-16"><b>1 mes </b> de Suscripción</li>
+        <li class="w3-padding-16">
+          <h2 class="w3-wide">$ 10</h2>
+        </li>
+        <li class="w3-light-grey w3-padding-24">
+          <button class="w3-button w3-green w3-padding-large">Inscribirme</button>
+        </li>
+      </ul>
+    </div>
+
+    <div class="w3-third w3-margin-bottom">
+      <ul class="w3-ul w3-border w3-center w3-hover-shadow">
+        <li class="w3-dark-grey w3-xlarge w3-padding-32">Pro</li>
+        <li class="w3-padding-16"><b>6 meses</b> de Suscripción</li>
+        <li class="w3-padding-16">
+          <h2 class="w3-wide">$ 40</h2>
+        </li>
+        <li class="w3-light-grey w3-padding-24">
+          <button class="w3-button w3-green w3-padding-large">Inscribirme</button>
+        </li>
+      </ul>
+    </div>
+
+    <div class="w3-third w3-margin-bottom">
+      <ul class="w3-ul w3-border w3-center w3-hover-shadow">
+        <li class="w3-black w3-xlarge w3-padding-32">Premium</li>
+        <li class="w3-padding-16"><b>1 año</b> de Suscripción</li>
+        <li class="w3-padding-16">
+          <h2 class="w3-wide">$ 65</h2>
+        </li>
+        <li class="w3-light-grey w3-padding-24">
+          <button class="w3-button w3-green w3-padding-large">Inscribirme</button>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Grid -->
+  <div class="w3-row-padding" id="about">
+    <div class="w3-center w3-padding-64">
+      <span class="w3-xlarge w3-bottombar w3-border-dark-grey w3-padding-16">Quienes Somos</span>
+    </div>
+
+    <div class="w3-container">
+      <div class="w3-card" style="width:100%">
+        <div class="w3-container">
+          <h4>Queremos conectar a las personas que estan buscando un crédito hipotecario, con quienes tienen la experiencia en asesoria hipotecaria y trabajan para una
+              entidad financiera. Brindando un contacto virtual entre las dos partes, para recibir asesoria sobre los trámites y servicios ofrecidos.
+              Además facilitar a los interesados en adquirir un crédito que puedan comparar las tasas ofrecidas en el mercado para créditos hipotecarios, para que tengan
+              información importante que les ayude con la decisión sobre cual entidad financiera elegir.
+          </h4>
+        </div>
+      </div>
+      <p> &nbsp </p>
+          </div>
+       <div class="w3-third w3-margin-bottom">
+      <div class="w3-card-4">
+        <img src="imagenes/pepito_rugeles.jpg" alt="John" style="width:100%">
+      </div>
+    </div>
+
+    <div class="w3-third w3-margin-bottom">
+      <div class="w3-card-4">
+        <img src="imagenes/paquita_gallego.jpg" alt="Mike" style="width:100%">
+      </div>
+    </div>
+
+    <div class="w3-third w3-margin-bottom">
+      <div class="w3-card-4">
+        <img src="imagenes/familia_tux.jpg" alt="Jane" style="width:100%">
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Contact -->
+  <div class="w3-center w3-padding-64" id="contact">
+    <span class="w3-xlarge w3-bottombar w3-border-dark-grey w3-padding-16">Contactanos</span>
+  </div>
+
+  <form class="w3-container" action="/action_page.php" target="_blank">
+    <div class="w3-section">
+      <label>Nombre</label>
+      <input class="w3-input w3-border w3-hover-border-black" style="width:100%;" type="text" name="Name" required>
+    </div>
+    <div class="w3-section">
+      <label>Email</label>
+      <input class="w3-input w3-border w3-hover-border-black" style="width:100%;" type="text" name="Email" required>
+    </div>
+    <div class="w3-section">
+      <label>Asunto</label>
+      <input class="w3-input w3-border w3-hover-border-black" style="width:100%;" name="Subject" required>
+    </div>
+    <div class="w3-section">
+      <label>Mensaje</label>
+      <input class="w3-input w3-border w3-hover-border-black" style="width:100%;" name="Message" required>
+    </div>
+    <button type="submit" class="w3-button w3-block w3-black">Enviar</button>
+  </form>
+
+</div>
+
+<!-- Footer -->
+
+<footer class="w3-container w3-padding-32 w3-light-grey w3-center">
+  <h4>crediasesor.com</h4>
+  <a href="#" class="w3-button w3-black w3-margin"><i class="fa fa-arrow-up w3-margin-right"></i>Ir al inicio</a>
+  <div class="w3-xlarge w3-section">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+  </div>
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+</footer>
+
+
+<script>
+// Slideshow
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function currentDiv(n) {
+  showDivs(slideIndex = n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demodots");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length} ;
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+     dots[i].className = dots[i].className.replace(" w3-white", "");
+  }
+  x[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " w3-white";
+}
+</script>
+
+</body>
+</html>
